@@ -1,0 +1,14 @@
+{
+  "name": "node.cr",
+  "version": "0.0.0",
+  "description": "nodejs kinda compiled using crystal-lang",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "s": "node . example/index.crs",
+    "s:c": "node . example/index.crs > example/compiled.cr && crystal run example/compiled.cr"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.1.0"
+  }
+}

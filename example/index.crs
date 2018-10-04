@@ -1,0 +1,24 @@
+let imAVarAndIMustStartWithALowercaseLetter = "Hello World"
+
+let one = 1
+let two = 2
+
+const ImAConstAndIMustStartWithAnUppercaseLetter = "im dat const"
+
+function sayHi() {
+    console.log('hi')
+}
+
+function sayHi(something) {
+    if (something == 'no u') {
+        console.log('no u infinite')
+    }
+}
+
+console.log(imAVarAndIMustStartWithALowercaseLetter)
+console.log(ImAConstAndIMustStartWithAnUppercaseLetter)
+
+sayHi()
+
+sayHi('no u')
+
