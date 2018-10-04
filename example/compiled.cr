@@ -1,19 +1,14 @@
-imAVarAndIMustStartWithALowercaseLetter = "Hello World"
-one = 1
-two = nil.to_s()
-ImAConstAndIMustStartWithAnUppercaseLetter = "im dat const"
-def sayHi 
-	puts("hi")
-end
-def sayHi (something)
-	if (something == "no u")
-		puts("no u infinite")
+def sal 
+	-> {
+		i = 97
+		sal = 32
 
-	end
+		while (i < 100)
+			puts(i)
+
+			i += 1
+		end
+	}.call
 end
-puts(imAVarAndIMustStartWithALowercaseLetter)
-puts(ImAConstAndIMustStartWithAnUppercaseLetter)
-sayHi()
-sayHi("no u")
-puts(two)
+sal()
 
