@@ -1,6 +1,6 @@
 imAVarAndIMustStartWithALowercaseLetter = "Hello World"
 one = 1
-two = 2
+two = nil.to_s()
 ImAConstAndIMustStartWithAnUppercaseLetter = "im dat const"
 def sayHi 
 	puts("hi")
@@ -15,4 +15,5 @@ puts(imAVarAndIMustStartWithALowercaseLetter)
 puts(ImAConstAndIMustStartWithAnUppercaseLetter)
 sayHi()
 sayHi("no u")
+puts(two)
 
