@@ -1,7 +1,5 @@
-function sal() {
-    for (let i = 97, sal = 32; i < 100; i += 1) {
-        console.log(i);
-      }      
+for (let index = 0; index < 100; index+=1) {
+    do {
+        console.log(index)
+    } while (false);
 }
-
-sal()

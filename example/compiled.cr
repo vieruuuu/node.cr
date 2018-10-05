@@ -1,14 +1,14 @@
-def sal 
-	-> {
-		i = 97
-		sal = 32
+-> {
+	index = 0
 
-		while (i < 100)
-			puts(i)
+	while (index < 100)
+		while true
+			puts(index)
 
-			i += 1
+			break if !false
 		end
-	}.call
-end
-sal()
+
+		index += 1
+	end
+}.call
 
