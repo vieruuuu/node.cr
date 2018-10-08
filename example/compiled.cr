@@ -1,14 +1,15 @@
+sal = "sal1"
 -> {
-	index = 0
+	i = 0
 
-	while (index < 100)
-		while true
-			puts(index)
+	while (i < 101)
+		if (i === 100)
+			break
 
-			break if !false
 		end
+		puts(i)
 
-		index += 1
+		i += 1
 	end
 }.call
 

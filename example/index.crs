@@ -1,5 +1,10 @@
-for (let index = 0; index < 100; index+=1) {
-    do {
-        console.log(index)
-    } while (false);
+let sal = "sal1";
+
+i++
+
+for (let i = 0; i < 101; i++) {
+  if (i === 100) {
+    break;
+  }
+  console.log(i)
 }
