@@ -1,15 +1,7 @@
-sal = "sal1"
--> {
-	i = 0
-
-	while (i < 101)
-		if (i === 100)
-			break
-
-		end
-		puts(i)
-
-		i += 1
-	end
-}.call
+i = 0
+i += 1
+while true
+	puts("sal")
+	i += 1
+end
 
