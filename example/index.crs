@@ -1,5 +1,5 @@
-let i = "salcf"
+let x = console.readLine()
+let c1 = console.readLine()
+let c2 = console.readLine()
 
-let altceva = i.replace('cf', ' cf')
-
-console.log(altceva)
+console.log(x.replace(c1, c2))
