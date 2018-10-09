@@ -1,6 +1,5 @@
-let i = 0
-i++
-while (true) {
-  console.log('sal')
-  i++
-}
+let i = "salcf"
+
+let altceva = i.replace('cf', ' cf')
+
+console.log(altceva)
