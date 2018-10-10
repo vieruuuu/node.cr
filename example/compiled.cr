@@ -1,13 +1,7 @@
-def start(*arguments)
-  ->{
-    t = 0
-    while (t < 101)
-      e = t.to_s
-      ((t % 2) == 0) ? puts((e + " este par")) : puts((e + " este impar"))
-
-      t += 1
-    end
-  }.call
+def ceva(*arguments)
+  text = arguments[0]? || "hello"
+  puts(text)
 end
 
-start()
+ceva()
+ceva("muie axente")
