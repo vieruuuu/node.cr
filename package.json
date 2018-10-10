@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "s": "node . example/index.crs",
-    "s:c": "node . example/index.crs > example/compiled.cr && crystal run example/compiled.cr"
+    "s:c": "node . example/index.crs > example/compiled.cr && crystal run example/compiled.cr",
+    "s:f": "node . example/index.crs > example/compiled.cr && crystal tool format example/compiled.cr && crystal run example/compiled.cr"
   },
   "dependencies": {
     "@babel/parser": "^7.1.0"

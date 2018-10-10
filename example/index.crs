@@ -1,3 +1,1 @@
-let x = console.readLine()
-
-console.log(x.toLowerCase())
+function start(){for(let t=0;t<101;t++){let e=String(t);t%2==0?console.log(e+" este par"):console.log(e+" este impar")}}start();
