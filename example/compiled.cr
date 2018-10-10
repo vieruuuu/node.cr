@@ -1,7 +1,13 @@
 def ceva(*arguments)
-  text = arguments[0]? || "hello"
-  puts(text)
+  range = arguments[0]?
+  ->{
+    i = 0
+    while (i < range.size)
+      element = range[i]
+      puts(element)
+      i += 1
+    end
+  }.call
 end
 
-ceva()
-ceva("muie axente")
+ceva((3...5).to_a)

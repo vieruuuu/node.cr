@@ -1,7 +1,8 @@
-function ceva(text = "hello") {
-    console.log(text)
+function ceva(range) {
+    for (let i = 0; i < range.length; i++) {
+        let element = range[i];
+        console.log(element)
+    }
 }
 
-ceva()
-
-ceva(Symbol('"sal"'))
+ceva(ExclusiveRange(3, 5).to_a())
